@@ -11,7 +11,8 @@
 }
 
 body{
-    background: url(img/bg-desktop.webp);
+    background: url(img/city-moon-ocean-digital-art-4k.jpg);
+    background-position: center;
     font-family: 'Bai Jamjuree', sans-serif;
 }
 
@@ -37,6 +38,7 @@ footer p{
     margin: 2rem;
     height: 20rem;
     background-color:#fafcbf;
+    border-radius: 15px;
 }
 .cartao:hover .cartao-conteudo{
 
@@ -44,7 +46,8 @@ transform: rotateY(180deg);
 }
 .cartao-conteudo {
     text-align: center;
-    height: 100%;
+    border-radius: 15px;
+    height: 90%;
     background-color: #5d142f;
     padding: 20px;
     transform-style: preserve-3d;
@@ -65,8 +68,11 @@ transform: rotateY(180deg);
     backface-visibility: hidden;
 }
 .cartao-conteudo-pergunta{
+    padding-top: 70px;
     font-weight: 500px ;
     color: var(--cor-de-texto);
+    background-image: url(img/images.jpeg);
+    background-position: center;
 
 }
 .cartao-conteudo-pergunta, 
@@ -75,6 +81,8 @@ transform: rotateY(180deg);
 
 }
 .cartao-conteudo-resposta{
-    transform: rotateY(180deg)
+    transform: rotateY(180deg);
+    color:#cccccc;
+    
 }
 

@@ -14,7 +14,10 @@ function criaCartao(tema,pergunta,resposta){
     </div>
     `
     container.appendChild(cartao)
+
 }
 criaCartao('História','Em que ano iniciou-se a guerra do Vietnã','Em 1955')
 criaCartao('League of legends','Qual darkin não tem dois AA','O Varus')
 criaCartao('Português','O que é uma paroxitona','Uma paroxitona é uma palavra cuja sílaba tônica é a penúltima')
+criaCartao('Jhonatan','O que o Jhonatan é?','Chato')
+criaCartão('League of legends','Nome do Q do malphite','Fragmento Sísmico')
